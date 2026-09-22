@@ -25,6 +25,11 @@ footer {
     margin: 0 auto;
 }
 
+header {
+    background-color: var(--primary-color);
+    color: var(--accent2-color);
+}
+
 h1,
 h2 {
     font-family: var(--heading-font);
@@ -43,8 +48,7 @@ article {
     text-decoration: none;
 }
 
-\
- .hero {
+.hero {
     position: relative;
 }
 
@@ -72,6 +76,7 @@ article {
     right: 20px;
     padding: 16px;
     background-color: rgba(0, 0, 0, 0.6);
+    border: 4px solid var(--secondary-color);
     color: white;
 }
 
