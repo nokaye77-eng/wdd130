@@ -99,3 +99,9 @@ nav a {
 .history p {
     color: #1b4965;
 }
+
+.adventures figcaption {
+    color: var(--accent2-color);
+    text-align: center;
+    padding: 5px;
+}
