@@ -18,17 +18,15 @@ body {
     color: var(--accent1-color);
 }
 
-header,
-main,
-footer {
-    width: 840px;
-    margin: 0 auto;
+header {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    padding: 20px;
 }
 
-header {
-    background-color: var(--primary-color);
-    color: var(--accent2-color);
-}
+background-color: var(--primary-color);
+color: var(--accent2-color);
 
 h1,
 h2 {
@@ -36,12 +34,16 @@ h2 {
     color: var(--primary-color);
 }
 
-nav,
-p,
-section,
-article {
-    margin: 16px;
-    padding: 8px;
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
 }
 
 .socialmedia a {
@@ -84,4 +86,17 @@ article {
     float: right;
     width: 125px;
     margin: 0 0 10px 15px;
+}
+
+.history {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    align-items: center;
+    text-align: center;
+}
+
+.history h2,
+.history p {
+    color: #1b4965;
 }
