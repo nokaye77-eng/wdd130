@@ -23,10 +23,9 @@ header {
     grid-template-columns: 1fr 2fr;
     align-items: center;
     padding: 20px;
+    background-color: #1b4965;
+    color: #5fa8d3;
 }
-
-background-color: #1b4965;
-color: #5fa8d3;
 
 h1,
 h2 {
